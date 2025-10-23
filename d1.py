@@ -4,7 +4,7 @@ about_density: list[str] = [
     'A property of all substances is in fact density.',
     '\u03C1 = m / v, the formula that calculates how dense a material is, ',
     'is proportional to mass and inversely proportional to volume.',
-    '**************************************************************************************************************'
+    '****************************************************************************************'
     'Atomic mass is responsible for differing densities between different substances.',
     'An object with a greater density than another of the same size will be heavier.',
     'One object can be heavier than another, even if the heavier object is much smaller.',
@@ -14,7 +14,7 @@ about_density: list[str] = [
 
 if __name__ == '__main__':
 
-    print('***********************************************************************************************************')
+    print('**********************************************************************************')
 
     mass: float = 0
     volume: int = 0
@@ -27,7 +27,7 @@ if __name__ == '__main__':
         density = mass / volume
 
         if volume == 0:
-            print('***************************************************************************************************')
+            print('**************************************************************************')
             print(f'{volume} is not possible.')
 
         if volume < 0:
@@ -42,10 +42,10 @@ if __name__ == '__main__':
         print('Your entry:')
         print(f'{mass} / {volume} = {density}')
 
-        print('*******************************************************************************************************')
+        print('******************************************************************************')
         for about in about_density:
             print(about)
 
     else:
-        print('*******************************************************************************************************')
+        print('******************************************************************************')
         print(f'{mass} / 0 is an invalid fraction\nexiting/')
