@@ -11,7 +11,7 @@ about_density: list[str] = [
     'Similarly, an object or even another fluid will sink in another, less dense fluid.',
     'Floating is an example of a less-dense object sitting atop a more dense liquid.',
 ]
-
+     
 if __name__ == '__main__':
 
     print('**********************************************************************************')
